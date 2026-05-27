@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ilex ｜ fitness-realtime</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #f3f4f6;
+        overflow: hidden;
+        font-family: "Segoe UI", "Meiryo", sans-serif;
+      }
+      iframe {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        display: block;
+        background: #f3f4f6;
+      }
+      .loading {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #4b5563;
+        font-size: 14px;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loading">fitness-realtime を読み込んでいます...</div>
+    <iframe
+      src="https://script.google.com/macros/s/AKfycbzbqkjNPB_8Lok_JzWn7qY_wKPCSGSkGJF8WxUeV4ie666WiCkkp8Y6-orzHZKYmW0/exec"
+      title="fitness-realtime Dashboard"
+      allow="fullscreen">
+    </iframe>
+  </body>
+</html>
